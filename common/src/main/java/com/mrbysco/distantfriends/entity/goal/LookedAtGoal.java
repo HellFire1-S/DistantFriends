@@ -16,8 +16,8 @@ public class LookedAtGoal extends Goal {
 	private Player player;
 	private final DistantFriend friend;
 	private final RandomSource random;
-	private int crouchInterval = 10;
-	private int punchInterval = 5;
+	private int crouchInterval = 25;
+	private int punchInterval = 15;
 
 	public LookedAtGoal(DistantFriend friend) {
 		this.friend = friend;
